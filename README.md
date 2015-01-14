@@ -1,4 +1,4 @@
-List Keys
+List keys
 ---
 
 * `list-keys -t vi-copy`
@@ -13,3 +13,12 @@ Panes
 ---
 
 * `:setw synchronize-panes on|off` - send commands to all panes
+* `C-b + {` 
+* `C-b + }` - Shift panes left or right
+* `C-b + z` - Zoom/ unzoom pane
+
+Windows
+---
+
+* `C-b + (`
+* `C-b + )` - Cycle through windows
