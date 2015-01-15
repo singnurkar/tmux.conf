@@ -8,7 +8,12 @@ Sessions
 
 * `tmux list-sessions`
 * `tmux attach [session_name]`
-* `tmux new` - Create a new session
+* `tmux new -s [session_name]` - Create a new session
+* `tmux ls` - list all sessions
+* `C-b $` - list all sessions
+* `:new` - New session
+* `C-b s` - List sessions
+* `C-b $` - (Re)name session
 
 Panes
 ---
@@ -18,6 +23,7 @@ Panes
 * `C-b }` - Shift panes left or right
 * `C-b z` - Zoom/ unzoom pane
 * `C-b x`- Close panel
+* `:break-pane` - Break pane out into window
 
 Windows
 ---
@@ -29,5 +35,6 @@ Windows
 * `C-b p` - Switch to prev window
 * `C-b m` - Switch to next window
 * `C-b l` - Switch to previously active window
+* `C-b w` - List all windows
 * `C-b &` - Close window
 * `C-b d` - Detach Tmux
