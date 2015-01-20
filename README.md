@@ -17,8 +17,8 @@ Sessions
 
 Panes
 ---
-
 * `:setw synchronize-panes on|off` - Send commands to all panes
+* `C-<Space>` - Auto rearrange panes
 * `C-b {` 
 * `C-b }` - Shift panes left or right
 * `C-b z` - Zoom/ unzoom pane
